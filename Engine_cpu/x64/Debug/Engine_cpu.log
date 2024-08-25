@@ -1,0 +1,239 @@
+﻿  main.cpp
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(242,14): error C2061: 语法错误: 标识符“Object”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(53,26): warning C4244: “=”: 从“float”转换到“DWORD”，可能丢失数据
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(73,8): error C2065: “scaleX”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(73,21): error C2065: “scaleY”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(74,8): error C2065: “screen_origin”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(74,30): error C2065: “screen_origin”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(79,8): error C2065: “scaleX”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(79,21): error C2065: “scaleY”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(80,8): error C2065: “screen_origin”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(80,30): error C2065: “screen_origin”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(244,15): error C2065: “Triangle_md”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(244,8): error C2923: "std::vector": "Triangle_md" 不是参数 "_Ty" 的有效 模板 类型参数
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(244,15): message : 参见“Triangle_md”的声明
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(244,8): error C2976: “std::vector'”: 模板 参数太少
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(438,1): message : 参见“std::vector”的声明
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(244,28): error C2641: 无法推导“std::vector”的模板参数
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(244,28): error C2783: “std::vector<_Ty,_Alloc> std::vector(void) noexcept(<expr>)”: 无法推导“_Ty”的 模板 参数
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(610,5): message : 参见“std::vector”的声明
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(244,28): error C2780: “std::vector<_Ty,_Alloc> std::vector(std::vector<_Ty,_Alloc>)”: 应输入 1 个参数，却提供了 0 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(438,1): message : 参见“std::vector”的声明
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(245,3): error C2065: “obj”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(247,20): error C2663: “std::vector<_Ty,_Alloc>::_Unchecked_begin”: 没有重载函数具有对 “this” 指针的有效转换
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(1850,43): message : 可能是“allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer std::vector<_Ty,_Alloc>::_Unchecked_begin(void) noexcept const”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(247,20): message : “allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer std::vector<_Ty,_Alloc>::_Unchecked_begin(void) noexcept const”: 不能将“this”指针从“std::vector”转换为“const std::vector<_Ty,_Alloc> &”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(247,20): message : 原因如下: 无法从“std::vector”转换为“const std::vector<_Ty,_Alloc>”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(247,20): message : 转换要求第二个用户定义的转换运算符或构造函数
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(1846,37): message : 或    “allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer std::vector<_Ty,_Alloc>::_Unchecked_begin(void) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(247,20): message : “allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer std::vector<_Ty,_Alloc>::_Unchecked_begin(void) noexcept”: 不能将“this”指针从“std::vector”转换为“std::vector<_Ty,_Alloc> &”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(247,20): message : 原因如下: 无法从“std::vector”转换为“std::vector<_Ty,_Alloc>”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(247,20): message : 转换要求第二个用户定义的转换运算符或构造函数
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(247,20): message : 尝试匹配参数列表“()”时
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(247,20): error C2663: “std::vector<_Ty,_Alloc>::_Unchecked_end”: 没有重载函数具有对 “this” 指针的有效转换
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(1858,43): message : 可能是“allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer std::vector<_Ty,_Alloc>::_Unchecked_end(void) noexcept const”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(247,20): message : “allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer std::vector<_Ty,_Alloc>::_Unchecked_end(void) noexcept const”: 不能将“this”指针从“std::vector”转换为“const std::vector<_Ty,_Alloc> &”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(247,20): message : 原因如下: 无法从“std::vector”转换为“const std::vector<_Ty,_Alloc>”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(247,20): message : 转换要求第二个用户定义的转换运算符或构造函数
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(1854,37): message : 或    “allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer std::vector<_Ty,_Alloc>::_Unchecked_end(void) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(247,20): message : “allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer std::vector<_Ty,_Alloc>::_Unchecked_end(void) noexcept”: 不能将“this”指针从“std::vector”转换为“std::vector<_Ty,_Alloc> &”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(247,20): message : 原因如下: 无法从“std::vector”转换为“std::vector<_Ty,_Alloc>”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(247,20): message : 转换要求第二个用户定义的转换运算符或构造函数
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(247,20): message : 尝试匹配参数列表“()”时
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(248,4): error C2065: “Triangle”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(248,13): error C2146: 语法错误: 缺少“;”(在标识符“temp”的前面)
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(248,13): error C2065: “temp”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(248,20): error C2065: “Triangle”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(249,4): error C2065: “temp”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(249,22): error C2065: “screenwidth”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(249,35): error C2065: “temp”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(249,53): error C2065: “screenheight”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(249,67): error C2065: “temp”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(249,85): error C2065: “atScreen”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(250,4): error C2065: “temp”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(250,22): error C2065: “screenwidth”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(250,35): error C2065: “temp”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(250,53): error C2065: “screenheight”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(250,67): error C2065: “temp”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(250,85): error C2065: “atScreen”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(251,4): error C2065: “temp”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(251,22): error C2065: “screenwidth”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(251,35): error C2065: “temp”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(251,53): error C2065: “screenheight”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(251,67): error C2065: “temp”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(251,85): error C2065: “atScreen”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(253,8): error C2065: “temp”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(253,25): error C2065: “temp”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(253,50): error C2065: “temp”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(253,61): error C2065: “temp”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(253,45): error C2660: “std::swap”: 函数不接受 1 个参数
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\thread(237,25): message : 参见“std::swap”的声明
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\sstream(907,6): message : 可能是“void std::swap(std::basic_stringstream<_Elem,_Traits,_Alloc> &,std::basic_stringstream<_Elem,_Traits,_Alloc> &) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(253,45): message : “void std::swap(std::basic_stringstream<_Elem,_Traits,_Alloc> &,std::basic_stringstream<_Elem,_Traits,_Alloc> &) noexcept”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\sstream(781,6): message : 或    “void std::swap(std::basic_ostringstream<_Elem,_Traits,_Alloc> &,std::basic_ostringstream<_Elem,_Traits,_Alloc> &) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(253,45): message : “void std::swap(std::basic_ostringstream<_Elem,_Traits,_Alloc> &,std::basic_ostringstream<_Elem,_Traits,_Alloc> &) noexcept”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\sstream(661,6): message : 或    “void std::swap(std::basic_istringstream<_Elem,_Traits,_Alloc> &,std::basic_istringstream<_Elem,_Traits,_Alloc> &) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(253,45): message : “void std::swap(std::basic_istringstream<_Elem,_Traits,_Alloc> &,std::basic_istringstream<_Elem,_Traits,_Alloc> &) noexcept”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\sstream(541,6): message : 或    “void std::swap(std::basic_stringbuf<_Elem,_Traits,_Alloc> &,std::basic_stringbuf<_Elem,_Traits,_Alloc> &) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(253,45): message : “void std::swap(std::basic_stringbuf<_Elem,_Traits,_Alloc> &,std::basic_stringbuf<_Elem,_Traits,_Alloc> &) noexcept”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\fstream(576,6): message : 或    “void std::swap(std::basic_fstream<_Elem,_Traits> &,std::basic_fstream<_Elem,_Traits> &) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(253,45): message : “void std::swap(std::basic_fstream<_Elem,_Traits> &,std::basic_fstream<_Elem,_Traits> &) noexcept”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\fstream(386,6): message : 或    “void std::swap(std::basic_ofstream<_Elem,_Traits> &,std::basic_ofstream<_Elem,_Traits> &) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(253,45): message : “void std::swap(std::basic_ofstream<_Elem,_Traits> &,std::basic_ofstream<_Elem,_Traits> &) noexcept”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\fstream(203,6): message : 或    “void std::swap(std::basic_ifstream<_Elem,_Traits> &,std::basic_ifstream<_Elem,_Traits> &) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(253,45): message : “void std::swap(std::basic_ifstream<_Elem,_Traits> &,std::basic_ifstream<_Elem,_Traits> &) noexcept”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\__msvc_filebuf.hpp(809,6): message : 或    “void std::swap(std::basic_filebuf<_Elem,_Traits> &,std::basic_filebuf<_Elem,_Traits> &) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(253,45): message : “void std::swap(std::basic_filebuf<_Elem,_Traits> &,std::basic_filebuf<_Elem,_Traits> &) noexcept”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(2353,19): message : 或    “void std::swap(std::vector<_Ty,_Alloc> &,std::vector<_Ty,_Alloc> &) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(253,45): message : “void std::swap(std::vector<_Ty,_Alloc> &,std::vector<_Ty,_Alloc> &) noexcept”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\memory(3508,19): message : 或    “void std::swap(std::unique_ptr<_Ty,_Dx> &,std::unique_ptr<_Ty,_Dx> &) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(253,45): message : “void std::swap(std::unique_ptr<_Ty,_Dx> &,std::unique_ptr<_Ty,_Dx> &) noexcept”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\memory(3126,6): message : 或    “void std::swap(std::weak_ptr<_Ty> &,std::weak_ptr<_Ty> &) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(253,45): message : “void std::swap(std::weak_ptr<_Ty> &,std::weak_ptr<_Ty> &) noexcept”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\memory(1994,6): message : 或    “void std::swap(std::shared_ptr<_Ty> &,std::shared_ptr<_Ty> &) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(253,45): message : “void std::swap(std::shared_ptr<_Ty> &,std::shared_ptr<_Ty> &) noexcept”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(4893,19): message : 或    “void std::swap(std::basic_string<_Elem,_Traits,_Alloc> &,std::basic_string<_Elem,_Traits,_Alloc> &) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(253,45): message : “void std::swap(std::basic_string<_Elem,_Traits,_Alloc> &,std::basic_string<_Elem,_Traits,_Alloc> &) noexcept”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\tuple(917,19): message : 或    “void std::swap(std::tuple<_Types...> &,std::tuple<_Types...> &) noexcept(<expr>)”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(253,45): message : “void std::swap(std::tuple<_Types...> &,std::tuple<_Types...> &) noexcept(<expr>)”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\utility(468,19): message : 或    “void std::swap(std::pair<_Ty1,_Ty2> &,std::pair<_Ty1,_Ty2> &) noexcept(<expr>)”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(253,45): message : “void std::swap(std::pair<_Ty1,_Ty2> &,std::pair<_Ty1,_Ty2> &) noexcept(<expr>)”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\type_traits(2156,19): message : 或    “void std::swap(_Ty (&)[_Size],_Ty (&)[_Size]) noexcept(<expr>)”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(253,45): message : “void std::swap(_Ty (&)[_Size],_Ty (&)[_Size]) noexcept(<expr>)”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\type_traits(2153,19): message : 或    “void std::swap(_Ty &,_Ty &) noexcept(<expr>)”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(253,45): message : “void std::swap(_Ty &,_Ty &) noexcept(<expr>)”: 应输入 2 个参数，却提供了 1 个
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(253,45): message : 尝试匹配参数列表“()”时
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(254,8): error C2065: “temp”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(254,25): error C2065: “temp”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(254,50): error C2065: “temp”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(254,61): error C2065: “temp”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(254,45): error C2660: “std::swap”: 函数不接受 1 个参数
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\thread(237,25): message : 参见“std::swap”的声明
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\sstream(907,6): message : 可能是“void std::swap(std::basic_stringstream<_Elem,_Traits,_Alloc> &,std::basic_stringstream<_Elem,_Traits,_Alloc> &) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(254,45): message : “void std::swap(std::basic_stringstream<_Elem,_Traits,_Alloc> &,std::basic_stringstream<_Elem,_Traits,_Alloc> &) noexcept”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\sstream(781,6): message : 或    “void std::swap(std::basic_ostringstream<_Elem,_Traits,_Alloc> &,std::basic_ostringstream<_Elem,_Traits,_Alloc> &) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(254,45): message : “void std::swap(std::basic_ostringstream<_Elem,_Traits,_Alloc> &,std::basic_ostringstream<_Elem,_Traits,_Alloc> &) noexcept”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\sstream(661,6): message : 或    “void std::swap(std::basic_istringstream<_Elem,_Traits,_Alloc> &,std::basic_istringstream<_Elem,_Traits,_Alloc> &) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(254,45): message : “void std::swap(std::basic_istringstream<_Elem,_Traits,_Alloc> &,std::basic_istringstream<_Elem,_Traits,_Alloc> &) noexcept”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\sstream(541,6): message : 或    “void std::swap(std::basic_stringbuf<_Elem,_Traits,_Alloc> &,std::basic_stringbuf<_Elem,_Traits,_Alloc> &) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(254,45): message : “void std::swap(std::basic_stringbuf<_Elem,_Traits,_Alloc> &,std::basic_stringbuf<_Elem,_Traits,_Alloc> &) noexcept”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\fstream(576,6): message : 或    “void std::swap(std::basic_fstream<_Elem,_Traits> &,std::basic_fstream<_Elem,_Traits> &) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(254,45): message : “void std::swap(std::basic_fstream<_Elem,_Traits> &,std::basic_fstream<_Elem,_Traits> &) noexcept”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\fstream(386,6): message : 或    “void std::swap(std::basic_ofstream<_Elem,_Traits> &,std::basic_ofstream<_Elem,_Traits> &) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(254,45): message : “void std::swap(std::basic_ofstream<_Elem,_Traits> &,std::basic_ofstream<_Elem,_Traits> &) noexcept”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\fstream(203,6): message : 或    “void std::swap(std::basic_ifstream<_Elem,_Traits> &,std::basic_ifstream<_Elem,_Traits> &) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(254,45): message : “void std::swap(std::basic_ifstream<_Elem,_Traits> &,std::basic_ifstream<_Elem,_Traits> &) noexcept”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\__msvc_filebuf.hpp(809,6): message : 或    “void std::swap(std::basic_filebuf<_Elem,_Traits> &,std::basic_filebuf<_Elem,_Traits> &) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(254,45): message : “void std::swap(std::basic_filebuf<_Elem,_Traits> &,std::basic_filebuf<_Elem,_Traits> &) noexcept”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(2353,19): message : 或    “void std::swap(std::vector<_Ty,_Alloc> &,std::vector<_Ty,_Alloc> &) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(254,45): message : “void std::swap(std::vector<_Ty,_Alloc> &,std::vector<_Ty,_Alloc> &) noexcept”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\memory(3508,19): message : 或    “void std::swap(std::unique_ptr<_Ty,_Dx> &,std::unique_ptr<_Ty,_Dx> &) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(254,45): message : “void std::swap(std::unique_ptr<_Ty,_Dx> &,std::unique_ptr<_Ty,_Dx> &) noexcept”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\memory(3126,6): message : 或    “void std::swap(std::weak_ptr<_Ty> &,std::weak_ptr<_Ty> &) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(254,45): message : “void std::swap(std::weak_ptr<_Ty> &,std::weak_ptr<_Ty> &) noexcept”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\memory(1994,6): message : 或    “void std::swap(std::shared_ptr<_Ty> &,std::shared_ptr<_Ty> &) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(254,45): message : “void std::swap(std::shared_ptr<_Ty> &,std::shared_ptr<_Ty> &) noexcept”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(4893,19): message : 或    “void std::swap(std::basic_string<_Elem,_Traits,_Alloc> &,std::basic_string<_Elem,_Traits,_Alloc> &) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(254,45): message : “void std::swap(std::basic_string<_Elem,_Traits,_Alloc> &,std::basic_string<_Elem,_Traits,_Alloc> &) noexcept”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\tuple(917,19): message : 或    “void std::swap(std::tuple<_Types...> &,std::tuple<_Types...> &) noexcept(<expr>)”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(254,45): message : “void std::swap(std::tuple<_Types...> &,std::tuple<_Types...> &) noexcept(<expr>)”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\utility(468,19): message : 或    “void std::swap(std::pair<_Ty1,_Ty2> &,std::pair<_Ty1,_Ty2> &) noexcept(<expr>)”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(254,45): message : “void std::swap(std::pair<_Ty1,_Ty2> &,std::pair<_Ty1,_Ty2> &) noexcept(<expr>)”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\type_traits(2156,19): message : 或    “void std::swap(_Ty (&)[_Size],_Ty (&)[_Size]) noexcept(<expr>)”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(254,45): message : “void std::swap(_Ty (&)[_Size],_Ty (&)[_Size]) noexcept(<expr>)”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\type_traits(2153,19): message : 或    “void std::swap(_Ty &,_Ty &) noexcept(<expr>)”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(254,45): message : “void std::swap(_Ty &,_Ty &) noexcept(<expr>)”: 应输入 2 个参数，却提供了 1 个
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(254,45): message : 尝试匹配参数列表“()”时
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(255,8): error C2065: “temp”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(255,25): error C2065: “temp”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(255,50): error C2065: “temp”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(255,61): error C2065: “temp”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(255,45): error C2660: “std::swap”: 函数不接受 1 个参数
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\thread(237,25): message : 参见“std::swap”的声明
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\sstream(907,6): message : 可能是“void std::swap(std::basic_stringstream<_Elem,_Traits,_Alloc> &,std::basic_stringstream<_Elem,_Traits,_Alloc> &) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(255,45): message : “void std::swap(std::basic_stringstream<_Elem,_Traits,_Alloc> &,std::basic_stringstream<_Elem,_Traits,_Alloc> &) noexcept”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\sstream(781,6): message : 或    “void std::swap(std::basic_ostringstream<_Elem,_Traits,_Alloc> &,std::basic_ostringstream<_Elem,_Traits,_Alloc> &) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(255,45): message : “void std::swap(std::basic_ostringstream<_Elem,_Traits,_Alloc> &,std::basic_ostringstream<_Elem,_Traits,_Alloc> &) noexcept”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\sstream(661,6): message : 或    “void std::swap(std::basic_istringstream<_Elem,_Traits,_Alloc> &,std::basic_istringstream<_Elem,_Traits,_Alloc> &) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(255,45): message : “void std::swap(std::basic_istringstream<_Elem,_Traits,_Alloc> &,std::basic_istringstream<_Elem,_Traits,_Alloc> &) noexcept”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\sstream(541,6): message : 或    “void std::swap(std::basic_stringbuf<_Elem,_Traits,_Alloc> &,std::basic_stringbuf<_Elem,_Traits,_Alloc> &) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(255,45): message : “void std::swap(std::basic_stringbuf<_Elem,_Traits,_Alloc> &,std::basic_stringbuf<_Elem,_Traits,_Alloc> &) noexcept”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\fstream(576,6): message : 或    “void std::swap(std::basic_fstream<_Elem,_Traits> &,std::basic_fstream<_Elem,_Traits> &) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(255,45): message : “void std::swap(std::basic_fstream<_Elem,_Traits> &,std::basic_fstream<_Elem,_Traits> &) noexcept”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\fstream(386,6): message : 或    “void std::swap(std::basic_ofstream<_Elem,_Traits> &,std::basic_ofstream<_Elem,_Traits> &) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(255,45): message : “void std::swap(std::basic_ofstream<_Elem,_Traits> &,std::basic_ofstream<_Elem,_Traits> &) noexcept”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\fstream(203,6): message : 或    “void std::swap(std::basic_ifstream<_Elem,_Traits> &,std::basic_ifstream<_Elem,_Traits> &) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(255,45): message : “void std::swap(std::basic_ifstream<_Elem,_Traits> &,std::basic_ifstream<_Elem,_Traits> &) noexcept”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\__msvc_filebuf.hpp(809,6): message : 或    “void std::swap(std::basic_filebuf<_Elem,_Traits> &,std::basic_filebuf<_Elem,_Traits> &) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(255,45): message : “void std::swap(std::basic_filebuf<_Elem,_Traits> &,std::basic_filebuf<_Elem,_Traits> &) noexcept”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(2353,19): message : 或    “void std::swap(std::vector<_Ty,_Alloc> &,std::vector<_Ty,_Alloc> &) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(255,45): message : “void std::swap(std::vector<_Ty,_Alloc> &,std::vector<_Ty,_Alloc> &) noexcept”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\memory(3508,19): message : 或    “void std::swap(std::unique_ptr<_Ty,_Dx> &,std::unique_ptr<_Ty,_Dx> &) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(255,45): message : “void std::swap(std::unique_ptr<_Ty,_Dx> &,std::unique_ptr<_Ty,_Dx> &) noexcept”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\memory(3126,6): message : 或    “void std::swap(std::weak_ptr<_Ty> &,std::weak_ptr<_Ty> &) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(255,45): message : “void std::swap(std::weak_ptr<_Ty> &,std::weak_ptr<_Ty> &) noexcept”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\memory(1994,6): message : 或    “void std::swap(std::shared_ptr<_Ty> &,std::shared_ptr<_Ty> &) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(255,45): message : “void std::swap(std::shared_ptr<_Ty> &,std::shared_ptr<_Ty> &) noexcept”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(4893,19): message : 或    “void std::swap(std::basic_string<_Elem,_Traits,_Alloc> &,std::basic_string<_Elem,_Traits,_Alloc> &) noexcept”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(255,45): message : “void std::swap(std::basic_string<_Elem,_Traits,_Alloc> &,std::basic_string<_Elem,_Traits,_Alloc> &) noexcept”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\tuple(917,19): message : 或    “void std::swap(std::tuple<_Types...> &,std::tuple<_Types...> &) noexcept(<expr>)”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(255,45): message : “void std::swap(std::tuple<_Types...> &,std::tuple<_Types...> &) noexcept(<expr>)”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\utility(468,19): message : 或    “void std::swap(std::pair<_Ty1,_Ty2> &,std::pair<_Ty1,_Ty2> &) noexcept(<expr>)”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(255,45): message : “void std::swap(std::pair<_Ty1,_Ty2> &,std::pair<_Ty1,_Ty2> &) noexcept(<expr>)”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\type_traits(2156,19): message : 或    “void std::swap(_Ty (&)[_Size],_Ty (&)[_Size]) noexcept(<expr>)”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(255,45): message : “void std::swap(_Ty (&)[_Size],_Ty (&)[_Size]) noexcept(<expr>)”: 应输入 2 个参数，却提供了 1 个
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\type_traits(2153,19): message : 或    “void std::swap(_Ty &,_Ty &) noexcept(<expr>)”
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(255,45): message : “void std::swap(_Ty &,_Ty &) noexcept(<expr>)”: 应输入 2 个参数，却提供了 1 个
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(255,45): message : 尝试匹配参数列表“()”时
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(257,8): error C2065: “temp”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(258,11): error C2065: “temp”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(258,21): error C2065: “temp”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(258,31): error C2065: “screenwidth”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(258,5): error C2660: “Buffer::line1”: 函数不接受 2 个参数
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(106,7): message : 参见“Buffer::line1”的声明
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(258,5): message : 尝试匹配参数列表“()”时
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(259,5): error C2143: 语法错误: 缺少“;”(在“continue”的前面)
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(261,8): error C2065: “temp”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(262,16): error C2065: “temp”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(262,33): error C2065: “atScreen”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(262,55): error C2065: “temp”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(262,72): error C2065: “atScreen”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(262,94): error C2065: “temp”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(262,111): error C2065: “atScreen”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(262,133): error C2065: “temp”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(262,150): error C2065: “atScreen”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(262,5): error C2660: “line”: 函数不接受 1 个参数
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(185,6): message : 参见“line”的声明
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(262,5): message : 尝试匹配参数列表“()”时
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(263,19): error C2065: “temp”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(263,35): error C2065: “temp”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(266,50): error C2065: “screenwidth”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(268,26): error C2065: “screenheight”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(269,45): error C2065: “screenheight”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(272,20): error C2065: “atScreen”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(272,46): error C2065: “atScreen”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(272,75): error C2065: “atScreen”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(272,104): error C2065: “atScreen”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(272,5): error C2660: “line”: 函数不接受 1 个参数
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(185,6): message : 参见“line”的声明
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(272,5): message : 尝试匹配参数列表“()”时
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(274,10): error C2065: “temp”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(277,44): error C2065: “screenwidth”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(279,26): error C2065: “screenheight”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(280,45): error C2065: “screenheight”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(283,20): error C2065: “atScreen”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(283,46): error C2065: “atScreen”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(283,75): error C2065: “atScreen”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(283,104): error C2065: “atScreen”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(283,5): error C2660: “line”: 函数不接受 1 个参数
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(185,6): message : 参见“line”的声明
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(283,5): message : 尝试匹配参数列表“()”时
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(287,8): error C2065: “temp”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(288,19): error C2065: “temp”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(288,35): error C2065: “temp”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(291,50): error C2065: “screenwidth”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(293,26): error C2065: “screenheight”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(294,45): error C2065: “screenheight”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(297,20): error C2065: “atScreen”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(297,46): error C2065: “atScreen”: 未声明的标识符
+C:\Users\R1301\Desktop\Engine_cpu\main.cpp(297,1): fatal  error C1003: 错误计数超过 100；正在停止编译
